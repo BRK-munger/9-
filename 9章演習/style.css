@@ -12,7 +12,7 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
- display: bloke;
+  display: flex;
 }
 
 .step-box {
@@ -67,22 +67,23 @@ footer {
 
 @media screen and (max-width: 768px) {
   header {
-    width: 100%;
+    width:100%;
   }
 
-main {
-  width: 100%;
-}
+  main {
+    width: 100%;
+    display: block;
+  }
 
 .step-box {
   width: 90%;
-  margin: auto;
-  padding: 0;
-}
+  margin: 20px auto;
+  /*position: static;*/
+ }
 
-.step-box:last-child {
+ .step-box:last-child {
   width: 90%;
-  margin: 20pX auto;
+  margin: 20px auto;
+  /*position: static;*/
 }
-
 }
