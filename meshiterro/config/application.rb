@@ -18,5 +18,6 @@ module Meshiterro
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.hosts << "fcfffc41ef6744c6b24f8d03b34e83ff.vfs.cloud9.us-east-1.amazonaws.com"
   end
 end
